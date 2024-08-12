@@ -1,0 +1,33 @@
+
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#main{
+    width: 800px;
+    min-height: 600px;
+    background-color: grey;
+    float: left;
+}
+
+.r_header{
+    width: 100%;
+    min-height: 70px;
+    background: green;
+    float: left;
+}
+
+.r_header, .r_footer{
+    width: 100%;
+    min-height: 70px;
+    background: green;
+    float: left;
+}
+
+.r_center{
+    width: 100%;
+    min-height: 460px;
+    background: lightpink;
+    float: left;
+}
