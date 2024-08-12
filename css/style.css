@@ -31,3 +31,23 @@ body{
     background: lightpink;
     float: left;
 }
+.s_menu{
+    width: 100px;
+    min-height: 460px;
+    background: red;
+    box-sizing: border-box;
+    float: left;
+
+}
+.s_edv{
+    width: 600px ;
+    min-height: 460px ;
+    float: left;
+    background: rgb(161, 33, 33);
+}
+.s_tar{
+    width: 100px;
+   min-height:460px;
+   background: red;
+   float: left;
+}
