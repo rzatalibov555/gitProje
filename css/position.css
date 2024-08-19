@@ -1,0 +1,112 @@
+/* .demo{
+    width: 350px;
+    height: 150px;
+    background: red;
+    float: left;
+    color: white;
+    font-size: 30px;
+    position: relative;
+  
+}
+
+.demo2{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    float: left;
+    color: white;
+    font-size: 30px;
+    
+    position: relative;
+    
+}
+
+
+.ch1{
+    width: 50px;
+    height: 50px;
+    background: green;
+    float: left;
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+    opacity: 0.3;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ch1:hover{
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.ch2{
+    width: 50px;
+    height: 50px;
+    background: black;
+    float: left;
+    position: absolute;
+} */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* all * - hamisi */
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.r_nav{
+    width: 100%;
+    min-height: 70px;
+    background: blue;
+    float: left;
+
+    position: fixed;
+    top:0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.r_nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.r_nav ul li{
+    float: left;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.r_nav ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+#about{
+    padding: 70px 0;
+    width: 100%;
+    min-height: 800px;
+    background: pink;
+    float: left;
+}
+
+
+#contact{
+    padding: 20px 0;
+    width: 100%;
+    min-height: 800px;
+    background: rgb(71, 121, 237);
+    float: left;
+}
+
+#home{
+    padding: 20px 0;   
+}
