@@ -1,0 +1,218 @@
+body{
+    margin: 0px auto;
+    padding: 0;
+}
+
+.soz{
+    font-size: 30px;
+    /* user-select: none; */
+
+    /* letter-spacing: 20px; */
+    /* word-spacing: 20px; */
+    /* line-height: 20px; */
+}
+
+/* Pseudo element */
+/* ::selection
+::before
+::after */
+
+.secret::selection{
+    background: yellow;
+    color: red;
+}
+
+.a{
+    width: calc(100% - 250px);
+    height: 400px;
+    background: grey;
+    float: left;
+}
+
+.b{
+    width: 250px;
+    height: 400px;
+    background: rgb(221, 13, 214);
+    float: left;
+}
+
+.b::before{
+    content: "";
+    width: 100%;
+    min-height: 50px;
+    background: green;
+    float: left;
+}
+
+
+
+
+
+
+
+
+.kv{
+    width: 50px;
+    height: 50px;
+    background: rgb(45, 128, 0);
+    float: left;
+    margin: 5px;
+}
+
+.select{
+    /* width: 80%; */
+    width: calc(100% - 300px);
+    min-height: 500px;
+    background: red;
+    float: left;
+}
+
+.fighter{
+    width: 300px;
+    min-height: 500px;
+    background: blue;
+    float: left;
+}
+
+.fighter img{
+    width: 100%;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+.content{
+    width: 100%;
+    min-height: 50px;
+    /* background: lightgray; */
+    float: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    float: left;
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #2c3e50;;
+    float: left;
+    position: absolute;
+    left: -100px;
+    top: calc(100% - 25px);
+}
+
+.star::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #2c3e50;;
+    float: left;
+    position: absolute;
+    right: -100px;
+    top: calc(100% - 25px);
+}
+
+
+.color{
+    color: #2c3e50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 50px;
+    height: 50px;
+    /* background: red; */
+    float: left;
+    position: relative;
+    left: 330px;
+    top: 150px;
+    border-radius: 50%;
+    /* transform: rotate(45deg); */
+    
+    background-position: center;
+    background-image: url('https://ew.com/thmb/Bjg9F5T08YEoTA9H6SgkAiXnJ4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/League-of-Super-Pets-100722-5a89b6d9084643e098cb3a7eb55a48c3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.main::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    /* background: green; */
+    float: left;
+    position: absolute;
+    left: -50px;
+
+    background-image: url('https://m.media-amazon.com/images/M/MV5BY2IwYjU3YTMtN2M1NS00MWY3LWE1NjQtM2RkZGFlNjVmN2M0XkEyXkFqcGc@._V1_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.main::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    /* background: blue; */
+    float: left;
+    position: absolute;
+    right: -50px;
+    top: 50px;
+
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2481357159/display_1500/stock-vector-june-batman-illustration-in-high-resolution-2481357159.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+/* .demo{
+    color: red;
+    font-size: 30px;
+}
+
+.demo::before{
+    content: "Salam!";
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.demo::after{
+    content: "necesen?";
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+   
+} */
