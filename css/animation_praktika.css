@@ -1,0 +1,97 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main{
+    width: 500px;
+    min-height: 500px;
+    background: grey;
+    background-image: url('https://proedu.com/cdn/shop/articles/What-Is-Levels-Photshop-Skills-blog_d974bb0a-27a8-4ded-987c-5a358c06344a.jpg?v=1703040595&width=2048');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    position: relative;
+}
+
+.anime1, .anime2, .anime3{
+    width: 50px;
+    height: 50px;
+    float: left;
+    position: absolute;
+
+    animation-name: dalga;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.anime1{
+    background: red;
+    left: 50px;
+    top: 200px;
+    animation-duration: 1s;
+}
+
+.anime1 img, .anime2 img, .anime3 img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.anime2{
+    background: green;
+    animation-duration: 1s;
+    left: 250px;
+    top: 100px;
+    animation-name: dalga2;
+}
+
+.anime3{
+    /* background: blue; */
+    right: 50px;
+    bottom: 70px;
+    animation-duration: 1s;
+    animation-name: dalga3;
+    overflow: hidden;
+}
+
+
+@keyframes dalga {
+    from{
+        top: 180px;
+    }
+
+    to{
+        top: 220px;
+    }
+}
+
+
+@keyframes dalga2 {
+    from{
+        top: 80px;
+        left: 300px;
+    }
+
+    to{
+        left: 100px;
+        top: 120px;
+    }
+}
+
+
+@keyframes dalga3 {
+    from{
+        bottom: 50px;
+        transform: rotate(0deg);
+    }
+
+    to{
+        bottom: 90px;
+        transform: rotate(90deg);
+        border-radius: 50%;
+    }
+}

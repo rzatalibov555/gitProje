@@ -1,0 +1,60 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background: grey;
+    float: left;
+    /* border: 2px solid red; */
+    /* position: relative; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a8{
+    width: 500px;
+    height: 500px;
+    /* background: red; */
+    float: left;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 50%;
+    
+    animation-name: neptune_anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.neptune{
+    width: 50px;
+    height: 50px;
+    background: green;
+    float: left;
+    border: 2px solid white;
+    position: absolute;
+    left: -25px;
+    top: calc(50% - 25px);
+    border-radius: 50%;
+    
+}
+
+.neptune img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+@keyframes neptune_anime {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
