@@ -1,0 +1,131 @@
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    min-height: 600px;
+    background: #E4F0FE;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header, .footer{
+    width: 100%;
+    min-height: 70px;
+    background: #0069FF;
+    float: left;
+}
+
+.header{
+    margin-bottom: 15px;
+}
+
+.footer{
+    margin-top: 15px;
+}
+
+.left, .right{
+    width: 15%;
+    min-height: 430px;
+    background: #67A4FF;
+    float: left;
+}
+
+.center{
+    width: calc(70% - 30px);
+    min-height: 430px;
+    background: #A4A5AA;
+    float: left;
+    margin: 0 15px;
+}
+
+
+
+
+@media only screen and (max-height: 500px){
+    .header{
+        background: rgb(151, 8, 137);
+    }
+}
+
+@media only screen and (min-height: 500px){
+    .header{
+        background: rgb(201, 44, 9);
+    }
+}
+
+
+
+@media only screen and (max-width: 701px){
+    .center{
+        background: green;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .center{
+        background: red;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .left, .center, .right{
+        width: 100%;
+        min-height: 100px;
+      }
+  
+    .center{
+            background: purple;
+          margin: 15px 0;
+      }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .center{
+        background: aqua;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .center{
+        background: rgb(9, 255, 95);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .center{
+        background: rgb(3, 1, 22);
+    }
+}
+
+
+
+@media only screen and (orientation: landscape) {
+    .footer {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .footer {
+      background-color: green;
+      min-height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .left{
+        background: pink;
+    }
+}
