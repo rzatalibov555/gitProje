@@ -1,0 +1,118 @@
+:root{
+    --first: #0068FF;
+    --second: #67A4FF;
+    --third: #A5A6AB;
+}
+
+
+.rz_header{
+    width: 100%;
+    min-height: 70px;
+    background: var(--first);
+    float: left;
+    margin-bottom: 15px;
+}
+
+
+.rz_nav{
+    width: 100%;
+    min-height: 400px;
+    background: var(--second);
+    float: left;
+}
+
+.rz_main{
+    width: 100%;
+    min-height: 400px;
+    background: var(--third);
+    float: left;
+}
+
+.rz_sidebar{
+    width: 100%;
+    min-height: 400px;
+    background: var(--second);
+    float: left;
+}
+
+
+.rz_footer{
+    width: 100%;
+    min-height: 70px;
+    background: var(--first);
+    float: left;
+    margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .noPadding{
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .rz_nav, .rz_main, .rz_sidebar{
+        min-height: 100px;
+        /* background: red; */
+    }
+
+    .noPadding{
+        padding: 0px;
+    }
+
+    .rz_main{
+        margin: 15px 0;
+    }
+    
+}
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* .rz_nav, .rz_main, .rz_sidebar{
+        background: purple;
+    } */
+}
+
+
+
+
+
+
+
+
+
+/* .main{
+    width: 100%;
+    min-height: 100px;
+    background: red;
+    float: left;
+    margin: 10px 0px;
+}
+
+.blue{
+    width: 100%;
+    min-height: 100px;
+    background: blue;
+    float: left;
+}
+
+
+.blue span{
+    color: white;
+    font-size: 30px;
+}
+
+.main .blue{
+    background: transparent;
+} */
