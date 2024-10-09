@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/Login-register.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="jumbotron greenStyle">
+            <h1>Register</h1>
+        </div>
+
+        <form action="index.py" method="GET">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <label for="fullname">Firstname Lastname</label>
+                <input type="text" name="" class="form-control demoInput" id="fullname" placeholder="Enter Firstname Lastname" required>
+                <br>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <label for="username">Username</label>
+                <input type="text" name="" class="form-control demoInput" id="username" placeholder="Enter username" required>
+                <br>
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <label for="password">Password</label>
+                <input type="password" name="" class="form-control demoInput" id="password" placeholder="Enter password">
+                <br>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <label for="password_confirm">Password confirm</label>
+                <input type="password" name="" class="form-control demoInput" id="password_confirm"
+                    placeholder="Enter password confirm">
+                <br>
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <label for="description">Description</label>
+                <textarea name="" id="description" class="form-control demoInput" cols="10" rows="10"></textarea>
+                <br>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <label for="gender">Gender</label>
+                <select name="" class="form-control demoInput" id="gender">
+                    <option value="">-SELECT-</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" placeholder="Enter email" class="form-control demoInput">
+                <br>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <label for="bday">Birthday</label>
+                <input type="date" name="" id="bday" class="form-control demoInput">
+                <br>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <label for="photo">Profile Photo <br>
+                    <img width="50" height="50" style="cursor: pointer;" src="https://cdn-icons-gif.flaticon.com/11677/11677416.gif" alt="">
+                </label>
+                <input type="file" name="" id="photo" class="form-control demoInput" style="display: none;">
+                <br>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <!-- <button type="submit" class="btn btn-success btn-block">Register</button> -->
+                <!-- <a href="#" class="btn btn-info btn-block" role="button">Submit</a> -->
+
+                <input type="submit" class="btn btn-info" value="Gonder">
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
