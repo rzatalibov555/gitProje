@@ -1,0 +1,19 @@
+
+
+.myNavStyle{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.myCaruselStyle{
+    width: 100%!important;
+    height: 500px!important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .myCaruselStyle{
+        width: 100%!important;
+        height: 300px!important;
+    }
+}
