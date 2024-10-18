@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrapModal.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li><a href="#home">Section 1</a></li>
+                <li><a href="#about">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#section41">Section 4-1</a></li>
+                    <li><a href="#section42">Section 4-2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>    
+      
+      <div id="home" class="container-fluid">
+        <h1>Section 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+
+
+      <div id="about" class="container-fluid">
+        <h1>Section 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+
+
+      <div id="section3" class="container-fluid">
+        <h1>Section 3</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+
+
+      <div id="section41" class="container-fluid">
+        <h1>Section 4 Submenu 1</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+
+      
+      <div id="section42" class="container-fluid">
+        <h1>Section 4 Submenu 2</h1>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+        <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      </div>
+      
+
+
+
+
+
+
+    <!-- <div class="container">
+
+        
+        <img title="Deadpool" data-toggle="tooltip" data-placement="right" data-toggle="modal" data-target="#deadpool" width="200px" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/783F99F37062DCE97ABDE66BA2FE84F1885382908D4B25F48E25B57021ECC256/scale?width=1200&aspectRatio=1.78&format=webp" alt="">
+        <br><br>
+        <img data-toggle="tooltip" data-placement="bottom" title="Logon" data-toggle="modal" data-target="#logon" width="200px" src="https://sm.ign.com/t/ign_in/gallery/e/every-movi/every-movie-x-man_1fna.1080.jpg" alt="">
+        <hr>
+       
+        <br>
+        <img title="Deadpool" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolore beatae? Assumenda consequatur repudiandae ut quaerat temporibus nulla dolore, doloribus tempora reiciendis earum eligendi excepturi accusamus vitae ducimus repellendus libero!" data-toggle="modal" data-target="#deadpool" width="200px" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/783F99F37062DCE97ABDE66BA2FE84F1885382908D4B25F48E25B57021ECC256/scale?width=1200&aspectRatio=1.78&format=webp" alt="">
+        <br><br>
+        <img  data-placement="left" title="Logon" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolore beatae? Assumenda consequatur repudiandae ut quaerat temporibus nulla dolore, doloribus tempora reiciendis earum eligendi excepturi accusamus vitae ducimus repellendus libero!" data-toggle="modal" data-target="#logon" width="200px" src="https://sm.ign.com/t/ign_in/gallery/e/every-movi/every-movie-x-man_1fna.1080.jpg" alt="">
+
+
+
+
+      
+        <div id="deadpool" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img width="400px" style="float: left;" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/783F99F37062DCE97ABDE66BA2FE84F1885382908D4B25F48E25B57021ECC256/scale?width=1200&aspectRatio=1.78&format=webp" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolore beatae? Assumenda consequatur repudiandae ut quaerat temporibus nulla dolore, doloribus tempora reiciendis earum eligendi excepturi accusamus vitae ducimus repellendus libero!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolore beatae? Assumenda consequatur repudiandae ut quaerat temporibus nulla dolore, doloribus tempora reiciendis earum eligendi excepturi accusamus vitae ducimus repellendus libero!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    
+         <div id="logon" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img width="100%" style="float: left;" src="https://sm.ign.com/t/ign_in/gallery/e/every-movi/every-movie-x-man_1fna.1080.jpg" alt="">
+                        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolore beatae? Assumenda consequatur repudiandae ut quaerat temporibus nulla dolore, doloribus tempora reiciendis earum eligendi excepturi accusamus vitae ducimus repellendus libero!</p>
+                        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dolore beatae? Assumenda consequatur repudiandae ut quaerat temporibus nulla dolore, doloribus tempora reiciendis earum eligendi excepturi accusamus vitae ducimus repellendus libero!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div> -->
+
+
+</body>
+
+</html>
+
+
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+    });
+</script>

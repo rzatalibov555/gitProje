@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+#home {
+    padding-top: 50px;
+    min-height: 500px;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#about {
+    padding-top: 50px;
+    min-height: 500px;
+    color: #fff;
+    background-color: #673ab7;
+}
+
+#section3 {
+    padding-top: 50px;
+    min-height: 500px;
+    color: #fff;
+    background-color: #ff9800;
+}
+
+#section41 {
+    padding-top: 50px;
+    min-height: 500px;
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+#section42 {
+    padding-top: 50px;
+    min-height: 500px;
+    color: #fff;
+    background-color: #009688;
+}
+
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
+}
+
+div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+}
+
+
+@media screen and (max-width: 810px) {
+
+    #section1,
+    #section2,
+    #section3,
+    #section41,
+    #section42 {
+        margin-left: 150px;
+    }
+}
