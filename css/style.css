@@ -1,53 +1,19 @@
-
-body{
-    margin: 0px auto;
-    padding: 0px;
-}
-
-#main{
-    width: 800px;
-    min-height: 600px;
-    background-color: grey;
-    float: left;
-}
-
-.r_header{
-    width: 100%;
-    min-height: 70px;
-    background: green;
-    float: left;
-}
-
-.r_header, .r_footer{
-    width: 100%;
-    min-height: 70px;
-    background: green;
-    float: left;
-}
-
-.r_center{
-    width: 100%;
-    min-height: 460px;
-    background: lightpink;
-    float: left;
-}
-.s_menu{
-    width: 100px;
-    min-height: 460px;
+.kv1{
+    width: 150px;
+    height: 150px;
     background: red;
-    box-sizing: border-box;
-    float: left;
+    margin: 5px;
+}
 
+.kv2{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    margin: 5px;
 }
-.s_edv{
-    width: 600px ;
-    min-height: 460px ;
-    float: left;
-    background: rgb(161, 33, 33);
-}
-.s_tar{
-    width: 100px;
-   min-height:460px;
-   background: red;
-   float: left;
+
+.kv3{
+    width: 300px;
+    height: 300px;
+    background: green;
 }
