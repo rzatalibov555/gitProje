@@ -1,96 +1,60 @@
+// var, let, const
+
+// var test = "Salam"
+// var Test = "necesen"
+// var TEst = "FR"
+
+
+// console.log(test)
+// console.log(Test)
+// console.log(test)
+
+var a = "Rza"       // String // Str // Text
+var b = "Talibov"   // String // Str // Text
+
+var c = 5           // Number // num // Integer // Int // Reqem
+var d = 2           // Number // num // Integer // Int // Reqem
+var e = 10          // Number // num // Integer // Int // Reqem
+var f = 4           // Number // num // Integer // Int // Reqem
+
+var h               // undefined
+
+var t = true        // 1 - boolean
+var j = false       // 0 - boolean
+
+
+// var cavab = c + d
+
+// console.log(cavab)
+
+// console.log(typeof c)
+// console.log(typeof j)
+// let x = BigInt("123456789012345678901234567890");
+// console.log(x)
+
+// console.log(`Menim adim ${a} ${b}dur` )
+
+// console.log("Menim adim "+a+" "+b+"dur")
 
 
 
-// function batman(){
-//     document.getElementById("imgStyle").src = "https://www.lightbulbs.com/catalog/product_line_photos/light_bulbs_beauty.jpg?123456"
-// }
+// var demo = undefined // undefined
+// console.log(typeof demo)
 
 
+// var $1 = 2
+// var $$1 = 2
 
-// function superman(){
-//     document.getElementById("imgStyle").src = "https://c8.alamy.com/comp/2A428DP/vector-3d-realistic-off-light-bulb-icon-closeup-isolated-on-white-background-design-template-clipart-glowing-incandescent-filament-lamps-2A428DP.jpg"
-// }
+// var Name = 2
 
+// console.log(typeof Name)
 
+let date = new Date()
 
+let myName = "Soltan"
+let mySurname = "Abdullayev"
+let school = "51 nomrəli"
+let bDay = 2010
+let Year = date.getFullYear()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-document.getElementById("word").innerHTML  = "<p style='color:red'>Hello</p>"
-
-document.getElementById("word2").innerText = "<p style='color:red'>Hello</p>"
-
-
-// document.getElementById("word2").style.background = "blue"
-// document.getElementById("word2").style.color = "white"
-
-
-
-
-
-function yoxEt(){
-    document.getElementById('divKv').style.display='none'
-}
-
-
-function activeEt(){
-    document.getElementById('divKv').style.display='block'
-}
-
-
-
-
-
-
-
-
-
-// window.alert("Demo")
-
-// document.write("JS DERSIMIZE basladiq!")
-
-// document.getElementById("word").innerHTML = "Output dersi"
-
-// console.log("Men burdayam")
-
-
-// let car = ["BMW", "Mercedes", "Audi"]
-
-// document.getElementById("word").innerHTML = car[1]
-
-// console.log(car)
-
-// document.write(15 + 26);
-
-// prompt("Enter username:")
-
-// let a = "Melumati silmek istediyinize eminsinizmi?"
-
-
-
-
-
-// function delData(){
-//     confirm(a)
-// }
-
-
-// let a = prompt("Enter username:")
-
-// if(a == "Rza"){
-//     alert("Welcome Rza")
-// }else{
-//     alert("Sehv")
-// }
+console.log(`Mənim adım ${myName} ${mySurname}dir. Mən ${school} məktəbdə təhsil alıram. Mənim ${Year-bDay} yaşım var.`)
