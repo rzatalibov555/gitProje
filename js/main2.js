@@ -274,18 +274,18 @@
 
 
 
-let username = "Admin"
-let password = "Demo123"
-// ---------------------------
-let db_username = "Admin"
-let db_password = "Demo123"
+// let username = "Admin"
+// let password = "Demo123"
+// // ---------------------------
+// let db_username = "Admin"
+// let db_password = "Demo123"
 
 
-if(username == db_username && password == db_password){
-    console.log("Welcome "+username);
-}else{
-    console.log("Username or password is invalid");
-}
+// if(username == db_username && password == db_password){
+//     console.log("Welcome "+username);
+// }else{
+//     console.log("Username or password is invalid");
+// }
 
 // if(username == "Admin" || password == 1234){
 //     console.log("Welcome "+username);
@@ -300,3 +300,67 @@ if(username == db_username && password == db_password){
 // }else{
 //     console.log("nemo");
 // }
+
+
+
+
+
+
+// [] - array // massiv
+// {} - object
+// () - function
+
+// function melumat(){
+//     console.log("Game over!")
+// }
+
+// function a(){
+//     document.write("Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum laborum ipsa eum accusantium vel natus earum esse possimus error eius cumque autem odio quis quas consequuntur minus, ex quo repellat. <br>")
+// }
+
+
+function student(ad, soyad){
+    console.log("Menim adim "+ad+" "+soyad+"dir.")
+}
+
+// student("Samir", "Quliyev")
+// student("Sabir", "Aliyev")
+
+// let a = "5"
+// let b = 17
+// let d = 10
+
+// let c = a+(b+d)
+// console.log(c)
+
+// function topla(a, b){
+//     // document.getElementById("result").innerHTML = a + b
+//     document.body.style.background = "green"
+// }
+
+
+// function fail(){
+//     document.body.style.background = "red"
+// }
+
+
+
+// function demo(a,b){
+//     console.log(a*b)
+// }
+
+// demo(10,2)
+
+
+function demo(a,b){
+    return a*b
+}
+
+// console.log(demo(10,2))
+// alert(demo(10,2))
+// document.write(demo(10,2))
+
+let cavab = demo(10,2)
+
+console.log(cavab)
+document.write(cavab)
