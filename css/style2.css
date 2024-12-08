@@ -3,6 +3,16 @@
 
 
 
-#result{
-    color: white;
+#person{
+    width: 100px;
+    height: 100px;
+    background: red;
+    float: left;
+    margin: 5px;
+}
+
+#person img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }

@@ -352,15 +352,58 @@ function student(ad, soyad){
 // demo(10,2)
 
 
-function demo(a,b){
-    return a*b
+// function demo(a,b){
+//     return a*b
+// }
+
+// // console.log(demo(10,2))
+// // alert(demo(10,2))
+// // document.write(demo(10,2))
+
+// let cavab = demo(10,2)
+
+// console.log(cavab)
+// document.write(cavab)
+
+// function tester(){
+//     document.getElementById('demo').innerHTML=Date()
+// }
+
+// function demo(){
+//     console.log("Soltan")
+// }
+
+// function ustuneGelende(){
+//     document.getElementById('demo').style.background = "purple"
+// }
+
+// function ustundenCixanda(){
+//     document.getElementById('demo').style.background = "green"
+// }
+
+// function bodyRengle(){
+//     document.body.style.background = "red"
+// }
+
+
+// ----Events----
+// https://www.w3schools.com/jsref/dom_obj_event.asp All events
+
+// onclick
+// ondblclick
+// onmouseover - ustune gelende
+// onmouseout  - ustunden cek
+// onload      - sehife yuklendikden sonra function isleyir
+// onchange    - select option deiwende iwleyir (oxlarla)
+
+
+function gamer(){
+    let game = document.getElementById("game").value
+    console.log(game)
+
+    
 }
 
-// console.log(demo(10,2))
-// alert(demo(10,2))
-// document.write(demo(10,2))
-
-let cavab = demo(10,2)
-
-console.log(cavab)
-document.write(cavab)
+function subzero(){
+    document.getElementById("user").src = "img/subzero.gif"
+}
