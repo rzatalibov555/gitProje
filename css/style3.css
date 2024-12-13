@@ -1,0 +1,72 @@
+
+
+body{
+    margin: 0 auto;
+    padding: 0px;
+    background-image: url('https://media.istockphoto.com/id/1502846052/photo/textured-soccer-game-field-with-neon-fog-center-midfield.jpg?s=612x612&w=0&k=20&c=LPSo6ps1NfZ_xviL0tmhnnrcLjjFXAQhsYr3qAOfviY=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.choose{
+    width: calc(100% - 300px);
+    min-height: 400px;
+    /* background: green; */
+    float: left;
+    position: absolute;
+    bottom: 0px;
+
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.player{
+    width: 150px;
+    height: 150px;
+    /* background: red; */
+    float: left;
+    margin: 5px;
+    color: yellow;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.player img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.selected_player{
+    width: 300px;
+    min-height: 400px;
+    /* background: aqua; */
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected_player img{
+    width: 100%;
+}
