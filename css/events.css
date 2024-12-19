@@ -1,0 +1,23 @@
+
+body{
+    margin: 0px auto;
+    padding: 0px;
+    background-image: url('https://t3.ftcdn.net/jpg/07/92/52/08/360_F_792520821_iHaoxaxoZpkcZyQutH7kQmnufokqBEQb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#person{
+    width: 200px;
+    height: 200px;
+    /* background: red; */
+    float: left;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/efe43b17716719.5635ede231ca5.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: 0.5s;
+}
