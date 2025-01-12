@@ -128,14 +128,138 @@
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // console.log(fruits.length)
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-// fruits.push("Armud")
-fruits[fruits.length] = "Lemon";  // Adds "Lemon" to fruits
-fruits[6] = ["Demo","nemo"];
-fruits[5] = "Potato";
-console.log(fruits)
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// // fruits.push("Armud")
+// fruits[fruits.length] = "Lemon";  // Adds "Lemon" to fruits
+// fruits[6] = ["Demo","nemo"];
+// fruits[5] = "Potato";
+// console.log(fruits)
 // let length = fruits[fruits.length - 3];
 // console.log(length)
 
 // console.log(fruits)
 // console.log(fruits.sort())
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo").innerHTML = fruits;
+// console.log(fruits.toString())
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fruit = fruits.at(2);
+
+// document.getElementById("demo").innerHTML = fruit;
+// console.log(fruit)
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo").innerHTML = fruits.join(" [-] ");
+// console.log(fruits.join(" [-] "))
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits)
+
+// fruits[5] = "Tester"
+// console.log(fruits)
+// fruits[10] = "Eyyub"
+// console.log(fruits)
+// fruits[8] = "Suleyman"
+// console.log(fruits)
+// fruits[9] = "Saleh"
+// console.log(fruits)
+
+// fruits.push("Kiwi")       // axirdan elave edir
+// fruits.unshift("Lemon");  // evvelden elave edir
+
+// let data = fruits.pop()   // axirdan silir
+//let data = fruits.shift()  // evvelden silir
+
+// document.getElementById("demo").innerHTML = fruits;
+// console.log(fruits)
+
+
+// const myGirls = ["Cecilie", "Lone"];
+// const myBoys = ["Emil", "Tobias", "Linus"];
+// const myChildren = myBoys.concat(myGirls);
+
+// document.getElementById("demo").innerHTML = myChildren;
+
+
+
+// const array1 = ["Cecilie", "Lone"];
+// const array2 = ["Emil", "Tobias", "Linus"];
+// const array3 = ["Robin", "Morgan"];
+
+// const myChildren = array1.concat(array3, array2); 
+
+// document.getElementById("demo").innerHTML = myChildren;
+
+
+// const myArray = ["Emil", "Tobias", "Linus"];
+// const myChildren = myArray.concat("Peter"); 
+// document.getElementById("demo").innerHTML = myChildren;
+
+
+// const myArr = [[1,2],[3,4],[5,6]];
+// console.log(myArr)
+
+// const newArr = myArr.flat();
+
+// document.getElementById("demo").innerHTML = newArr;
+// console.log(newArr)
+
+
+
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("demo1").innerHTML = fruits;
+
+// fruits.splice(2, 0, "Suleyman", "Saleh");
+// document.getElementById("demo2").innerHTML = fruits;
+
+
+
+// const fruits = ["Apples", "Orange", "Apple", "Mango"];
+// let position = fruits.indexOf("Mango");
+// console.log(fruits)
+// console.log(position+1)
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let data = fruits.includes("Oranges"); // is true
+// console.log(data)
+
+
+
+
+// const numbers = [4, 9, 16, 25, 29];
+// let first = numbers.find(myFunction);
+
+// document.getElementById("demo").innerHTML = "First number over 18 is " + first;
+
+// function myFunction(value, index, array) {
+//       return value > 8;
+// }
+
+
+// const numbers = [4, 9,  16, 25, 29, 31];
+// let first = numbers.findLast(myFunction);
+
+// document.getElementById("demo").innerHTML = "First number over 18 is " + first;
+
+// function myFunction(value, index, array) {
+//       return value > 8;
+// }
+
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits)
+
+// console.log(fruits.reverse())
+
+// console.log(fruits.sort())
+console.log(fruits.toSorted())
