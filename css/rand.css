@@ -1,0 +1,43 @@
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .image-container div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  
+  }
+  .image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  .btn_{
+    margin: 15px;
+  }
+
+
+
+
+
+
+  /* ============================ */
+
+
+  .elmeddin {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  
+  .active {
+    border: 2px solid red;
+  }
